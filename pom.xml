@@ -13,6 +13,7 @@
         <module>timtools</module>
         <module>spring-boot-starter-backup</module>
         <module>spring-boot-backup-sample</module>
+        <module>spring-boot-application</module>
     </modules>
 
     <properties>
