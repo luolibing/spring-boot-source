@@ -1,0 +1,9 @@
+
+org.springframework.context.ApplicationContextInitializer=\
+cn.tim.springboot.application3.CustomerApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+cn.tim.springboot.application3.CustomerApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+cn.tim.springboot.application3.MySpringApplicationRunListener
