@@ -11,6 +11,18 @@
 
     <artifactId>spring-boot-backup-sample</artifactId>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>coding-life</groupId>
+                <artifactId>spring-boot-tim-dependencies</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -18,13 +30,7 @@
         </dependency>
         <dependency>
             <groupId>coding-life</groupId>
-            <artifactId>springboot-autoconfiguration</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>coding-life</groupId>
             <artifactId>spring-boot-starter-backup</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

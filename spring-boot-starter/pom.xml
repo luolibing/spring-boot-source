@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot-starter-backup</artifactId>
+    <artifactId>spring-boot-starter</artifactId>
 
     <dependencyManagement>
         <dependencies>
@@ -25,12 +25,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>coding-life</groupId>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
+
         <dependency>
             <groupId>coding-life</groupId>
-            <artifactId>tim-tools</artifactId>
+            <artifactId>spring-boot-autoconfiguration</artifactId>
         </dependency>
     </dependencies>
 
